@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import {
-    setEmail,
+import { setEmail,
     subscribe,
-} from "../store/newsletterSlice";
+} from "../store/newsLgetterSlice";
 
 function Newsletter() {
     const dispatch = useDispatch();
